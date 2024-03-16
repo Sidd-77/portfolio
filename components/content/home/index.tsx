@@ -52,7 +52,7 @@ export const Home = () => {
           >
             Experienced Full Stack Developer with strong proficiency in MERN
             stack. Currently expanding skills in Machine Learning, particularly
-            in deep learning algorithms, with practical project experience. I'm
+            in deep learning algorithms, with practical project experience. I&apos;m
             committed to mastering ML and making significant contributions to
             the field through continuous learning and hands-on experience.
           </Text>
