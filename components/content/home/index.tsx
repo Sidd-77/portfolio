@@ -14,35 +14,35 @@ export const Home = () => {
 
   return (
     <Box css={{ px: "$12", "@xsMax": { px: "$10" }, width: "100%" }}>
-      <Card variant="flat" css={{ marginBottom: "$10" }}>
+      {/* <Card variant="flat" css={{ marginBottom: "$10" }}>
         <Card.Body css={{ backgroundColor: "$accents2" }}>
           <Text css={{ fontFamily: "inherit", textAlign: "center" }} as={"p"}>
-            Hello, I&apos;m Mauricio Siu. I&apos;m a software engineer based in
-            Honduras!
+            Hello, I&apos;m Siddharth. I&apos;m a CSE pre-final year student in Walchand College of Engineering Sangli
           </Text>
         </Card.Body>
-      </Card>
+      </Card> */}
       <Flex justify={"between"} css={{ pb: "$10" }}>
         <Box css={{ alignSelf: "center" }}>
           <Text h2 css={{ my: "$0" }}>
-            Mauricio Siu
+            Siddharth Salunkhe
           </Text>
           <Text css={{ fontFamily: "inherit" }}>
-            Software Engineer ( Backend / Frontend / Developer )
+            CSE Student &nbsp; | &nbsp; Full Stack Developer &nbsp; | &nbsp; ML
+            Enthusiast
           </Text>
         </Box>
 
-        <Avatar
+        {/* <Avatar
           css={{ "--nextui--avatarXl": "7.5rem" }}
           pointer
           bordered
           size={"xl"}
           src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
-        />
+        /> */}
       </Flex>
       <SectionAnimation delay={0.1}>
         <Box css={{ mb: "$10" }}>
-          <Text h3>Work</Text>
+          <Text h3>About Me</Text>
           <Text
             span
             css={{
@@ -50,13 +50,11 @@ export const Home = () => {
               display: "block",
             }}
           >
-            Sofware engineer with solid experience working with a variety of
-            programming languages, I am also familiar with different development
-            frameworks and tools. I am a quick learner and always strive to keep
-            up with the latest technologies and industry trends. In addition, I
-            have a strong sense of teamwork and communication skills that allow
-            me to collaborate effectively with other developers, designers and
-            stakeholders.
+            Experienced Full Stack Developer with strong proficiency in MERN
+            stack. Currently expanding skills in Machine Learning, particularly
+            in deep learning algorithms, with practical project experience. I'm
+            committed to mastering ML and making significant contributions to
+            the field through continuous learning and hands-on experience.
           </Text>
 
           <Flex justify={"center"} css={{ mt: "$8" }}>
@@ -69,30 +67,42 @@ export const Home = () => {
         </Box>
       </SectionAnimation>
 
+      <br/>
+      <br/>
+
       <SectionAnimation delay={0.2}>
         <Box css={{ mb: "$10" }}>
-          <Text h3>Bio</Text>
+          <Text h3>Education</Text>
 
           <Box as={"ul"} css={{ m: 0 }}>
             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
-                1999
+                2019
               </Text>
-              <Text span>Born in Cortes, Honduras.</Text>
+              <Text span>HSC Board</Text>
+              <Text span>
+                &ensp;(<b>Percentage:</b> 96.80%)
+              </Text>
             </Box>
             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
-                2018 - 2022
+                2021
               </Text>
-              <Text span>Bachelor&apos;s degree in Computer Science.</Text>
+              <Text span>SSC Board</Text>
+              <Text span>
+                &ensp;(<b>Percentage:</b> 95.20%)
+              </Text>
             </Box>
             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
-                2020 - 2022
+                2021 - 2025
               </Text>
-              <Text span>Freelancer as a Software Developer.</Text>
+              <Text span>B.tech CSE from WCE Sangli </Text>
+              <Text span>
+                &ensp;(<b>CGPA:</b> 8.28)
+              </Text>
             </Box>
-            <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
+            {/* <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
                 2022 - 2023
               </Text>
@@ -109,25 +119,49 @@ export const Home = () => {
                   2023 - Present
               </Text>
               <Text span>Software Engineer At Trades.org</Text>
-            </Box>
+            </Box> */}
           </Box>
         </Box>
       </SectionAnimation>
 
-      <SectionAnimation delay={0.3}>
+      <br/>
+      <br/>
+
+      {/* <SectionAnimation delay={0.3}>
         <Box css={{ mb: "$10" }}>
           <Text h3>I ❤️ </Text>
           <Text as={"span"} css={{ textIndent: "1em" }}>
-            I love to learn new things, I am passionate about technology and I
+            I love to learn new things, I am passionate about web-technologies and ML, and I
             always try to learn something new every day, I love to solve
             problems and I am always looking for new challenges.
           </Text>
         </Box>
-      </SectionAnimation>
+      </SectionAnimation> */}
 
       <SectionAnimation delay={0.3}>
         <Box css={{ mb: "$10" }}>
           <Text h3>Skills</Text>
+
+          <Text h4><u>Frontend :</u></Text>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(1, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
+            <Box as={"li"} css={{ p: "$2" }}>ReactJS</Box>
+            <Box as={"li"} css={{ p: "$2" }}>TailwindCSS</Box>
+            {/* Add more frontend skills here */}
+          </GridContainer>
+
+          <Text h4><u>Backend :</u></Text>
           <GridContainer
             as={"ul"}
             gap={"md"}
@@ -138,34 +172,94 @@ export const Home = () => {
               "@xsMax": {
                 gridTemplateColumns: "repeat(2, 1fr)",
               },
+              mb: "$4",
             }}
           >
-            <Box as={"li"}>ReactJS</Box>
-            <Box as={"li"}>NextJS</Box>
-             <Box as={"li"}>Graphql</Box>
-              <Box as={"li"}>React Native</Box>
-            <Box as={"li"}>NodeJS</Box>
-            <Box as={"li"}>NestJS</Box>
-            <Box as={"li"}>TypeScript</Box>
-            <Box as={"li"}>C# / .NET Core</Box>
-            <Box as={"li"}>Git</Box>
-            <Box as={"li"}>Git</Box>
-            <Box as={"li"}>SQL</Box>
-            <Box as={"li"}>Windows/Linux</Box>
-            <Box as={"li"}>C++</Box>
+            <Box as={"li"} css={{ p: "$2" }}>NodeJs</Box>
+            <Box as={"li"} css={{ p: "$2" }}>ExpressJs</Box>
+            <Box as={"li"} css={{ p: "$2" }}>MongoDB</Box>
+            <Box as={"li"} css={{ p: "$2" }}>MySQL</Box>
+            {/* Add backend skills here */}
+          </GridContainer>
+          
+          <Text h4><u>Programing Languages :</u></Text>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(2, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
+            <Box as={"li"} css={{ p: "$2" }}>C/C++</Box>
+            <Box as={"li"} css={{ p: "$2" }}>Javascript / Typescript</Box>
+            <Box as={"li"} css={{ p: "$2" }}>Python</Box>
+            <Box as={"li"} css={{ p: "$2" }}>SQL</Box>
+            {/* Add backend skills here */}
+          </GridContainer>
+
+          <Text h4><u>Dev-tools/Technologies :</u></Text>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(2, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
+            <Box as={"li"} css={{ p: "$2" }}>Linux</Box>
+            <Box as={"li"} css={{ p: "$2" }}>Docker</Box>
+            <Box as={"li"} css={{ p: "$2" }}>Google Cloud Platform</Box>
+            <Box as={"li"} css={{ p: "$2" }}>Git/Github</Box>
+            {/* Add dev-tools/technologies skills here */}
+          </GridContainer>
+
+          <Text h4><u>Machine Learning :</u></Text>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(2, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
+            <Box as={"li"} css={{ p: "$2" }}>Tensorflow</Box>
+            <Box as={"li"} css={{ p: "$2" }}>Keras</Box>
+            <Box as={"li"} css={{ p: "$2" }}>Scikit-learn</Box>
           </GridContainer>
         </Box>
       </SectionAnimation>
+
+      <br/>
+      <br/>
 
       <SectionAnimation delay={0.3}>
         <Box css={{ mb: "$10" }}>
           <Text h3>Languages</Text>
           <GridContainer as={"ul"} gap={"md"} css={{ m: 0, px: 0 }}>
-            <Box as={"li"}>Spanish </Box>
             <Box as={"li"}>English </Box>
+            <Box as={"li"}>Hindi </Box>
+            <Box as={"li"}>Marathi </Box>
           </GridContainer>
         </Box>
       </SectionAnimation>
+      
+      <br/>
 
       <SectionAnimation delay={0.3}>
         <Box css={{ mb: "$10" }}>
@@ -176,7 +270,7 @@ export const Home = () => {
                 block
                 target={"_blank"}
                 color="primary"
-                href="https://github.com/Siumauricio"
+                href="https://github.com/Sidd-77"
               >
                 <Button
                   light
@@ -186,7 +280,7 @@ export const Home = () => {
                   ripple={false}
                   css={{ pl: "$3" }}
                 >
-                  @Siumauricio
+                  @Sidd-77
                 </Button>
               </Link>
             </Box>
@@ -195,7 +289,7 @@ export const Home = () => {
                 block
                 target={"_blank"}
                 color="primary"
-                href="https://www.linkedin.com/in/carlos-mauricio-ortiz-siu-6b9011184/"
+                href="https://www.linkedin.com/in/siddharth-salunkhe-a52193224/"
               >
                 <Button
                   light
@@ -205,7 +299,7 @@ export const Home = () => {
                   ripple={false}
                   css={{ pl: "$3" }}
                 >
-                  @Mauricio Siu
+                  @Siddharth
                 </Button>
               </Link>
             </Box>

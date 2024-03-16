@@ -11,7 +11,7 @@ export const Projects = () => {
    return (
       <Box>
          <Text h2 css={{'@xsMax': {textAlign: 'center'}}}>
-            Work
+            Projects
          </Text>
          <GridContainer
             cols={{

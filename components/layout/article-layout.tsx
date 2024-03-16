@@ -9,7 +9,7 @@ interface Props {
 }
 
 export const ArticleLayout = ({children, title}: Props) => {
-   const t = `${title} - Mauricio Siu`;
+   const t = `${title} - Siddharth`;
    return (
       <LayoutAnimation>
          <Flex
