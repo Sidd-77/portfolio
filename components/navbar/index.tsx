@@ -3,6 +3,7 @@ import { Navbar, Link, Text } from "@nextui-org/react";
 import { LogoIcon } from "../icons/logo-icon";
 import { Toggle } from "./toggle";
 import { useRouter } from "next/router";
+import IconBat from "../icons/game-icon";
 import NextLink from "next/link";
 
 export const NavbarWrapper = () => {
@@ -65,9 +66,9 @@ export const NavbarWrapper = () => {
             },
           }}
         >
-          <LogoIcon />
+          <IconBat />
           <Text b color="inherit">
-            Sidd_Punk
+            {""}&nbsp;&nbsp;Sidd_Punk
           </Text>
         </Navbar.Brand>
       </NextLink>

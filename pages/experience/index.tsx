@@ -1,12 +1,14 @@
 import React from 'react'
-import {ArticleLayout} from '../../components/layout/article-layout';
-
+import { Box } from '../../components/styles/box'
+import { ArticleLayout } from '../../components/layout/article-layout'
+import { Experience } from '../../components/content/experience'
 
 const index = () => {
   return (
     <ArticleLayout>
-    <div>index</div>
+      <Experience />
     </ArticleLayout>
+    
   )
 }
 

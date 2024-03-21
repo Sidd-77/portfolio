@@ -8,6 +8,8 @@ import NextLink from "next/link";
 import { useRouter } from "next/router";
 import { LinkIcon } from "../../icons/link-icon";
 import { GridContainer } from "../../styles/grid";
+import IconBxlGmail from "../../icons/mail-icon";
+import IconTwitterCircled from "../../icons/twitter-icon";
 
 export const Home = () => {
   const router = useRouter();
@@ -52,9 +54,10 @@ export const Home = () => {
           >
             Experienced Full Stack Developer with strong proficiency in MERN
             stack. Currently expanding skills in Machine Learning, particularly
-            in deep learning algorithms, with practical project experience. I&apos;m
-            committed to mastering ML and making significant contributions to
-            the field through continuous learning and hands-on experience.
+            in deep learning algorithms, with practical project experience.
+            I&apos;m committed to mastering ML and making significant
+            contributions to the field through continuous learning and hands-on
+            experience.
           </Text>
 
           <Flex justify={"center"} css={{ mt: "$8" }}>
@@ -67,8 +70,171 @@ export const Home = () => {
         </Box>
       </SectionAnimation>
 
-      <br/>
-      <br/>
+      <br />
+
+      {/* <SectionAnimation delay={0.3}>
+        <Box css={{ mb: "$10" }}>
+          <Text h3>I ❤️ </Text>
+          <Text as={"span"} css={{ textIndent: "1em" }}>
+            I love to learn new things, I am passionate about web-technologies and ML, and I
+            always try to learn something new every day, I love to solve
+            problems and I am always looking for new challenges.
+          </Text>
+        </Box>
+      </SectionAnimation> */}
+
+      <SectionAnimation delay={0.3}>
+        <Box css={{ mb: "$10" }}>
+          <Text h3>Skills</Text>
+
+          <Text h4>
+            <u>Frontend :</u>
+          </Text>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(1, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
+            <Box as={"li"} css={{ p: "$2" }}>
+              ReactJS
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              TailwindCSS
+            </Box>
+            {/* Add more frontend skills here */}
+          </GridContainer>
+
+          <Text h4>
+            <u>Backend :</u>
+          </Text>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(2, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
+            <Box as={"li"} css={{ p: "$2" }}>
+              NodeJs
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              ExpressJs
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              MongoDB
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              MySQL
+            </Box>
+            {/* Add backend skills here */}
+          </GridContainer>
+
+          <Text h4>
+            <u>Programing Languages :</u>
+          </Text>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(2, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
+            <Box as={"li"} css={{ p: "$2" }}>
+              C/C++
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              Javascript / Typescript
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              Python
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              SQL
+            </Box>
+            {/* Add backend skills here */}
+          </GridContainer>
+
+          <Text h4>
+            <u>Dev-tools/Technologies :</u>
+          </Text>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(2, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
+            <Box as={"li"} css={{ p: "$2" }}>
+              Linux
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              Docker
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              Google Cloud Platform
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              Git/Github
+            </Box>
+            {/* Add dev-tools/technologies skills here */}
+          </GridContainer>
+
+          <Text h4>
+            <u>Machine Learning :</u>
+          </Text>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(2, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
+            <Box as={"li"} css={{ p: "$2" }}>
+              Tensorflow
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              Keras
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              Scikit-learn
+            </Box>
+          </GridContainer>
+        </Box>
+      </SectionAnimation>
+
+      <br />
 
       <SectionAnimation delay={0.2}>
         <Box css={{ mb: "$10" }}>
@@ -102,169 +268,29 @@ export const Home = () => {
                 &ensp;(<b>CGPA:</b> 8.28)
               </Text>
             </Box>
-            {/* <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
-              <Text span css={{ mr: "1em" }} weight={"bold"}>
-                2022 - 2023
-              </Text>
-              <Text span>Software Engineer at CodeExitos.</Text>
-            </Box>
-             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
-              <Text span css={{ mr: "1em" }} weight={"bold"}>
-                  2021 - Present
-              </Text>
-              <Text span>Middle Software Engineer At Jinza</Text>
-            </Box>
-              <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
-              <Text span css={{ mr: "1em" }} weight={"bold"}>
-                  2023 - Present
-              </Text>
-              <Text span>Software Engineer At Trades.org</Text>
-            </Box> */}
           </Box>
         </Box>
       </SectionAnimation>
 
-      <br/>
-      <br/>
-
-      {/* <SectionAnimation delay={0.3}>
-        <Box css={{ mb: "$10" }}>
-          <Text h3>I ❤️ </Text>
-          <Text as={"span"} css={{ textIndent: "1em" }}>
-            I love to learn new things, I am passionate about web-technologies and ML, and I
-            always try to learn something new every day, I love to solve
-            problems and I am always looking for new challenges.
-          </Text>
-        </Box>
-      </SectionAnimation> */}
-
-      <SectionAnimation delay={0.3}>
-        <Box css={{ mb: "$10" }}>
-          <Text h3>Skills</Text>
-
-          <Text h4><u>Frontend :</u></Text>
-          <GridContainer
-            as={"ul"}
-            gap={"md"}
-            css={{
-              m: 0,
-              px: 0,
-              gridTemplateColumns: "repeat(4, 1fr)",
-              "@xsMax": {
-                gridTemplateColumns: "repeat(1, 1fr)",
-              },
-              mb: "$4",
-            }}
-          >
-            <Box as={"li"} css={{ p: "$2" }}>ReactJS</Box>
-            <Box as={"li"} css={{ p: "$2" }}>TailwindCSS</Box>
-            {/* Add more frontend skills here */}
-          </GridContainer>
-
-          <Text h4><u>Backend :</u></Text>
-          <GridContainer
-            as={"ul"}
-            gap={"md"}
-            css={{
-              m: 0,
-              px: 0,
-              gridTemplateColumns: "repeat(4, 1fr)",
-              "@xsMax": {
-                gridTemplateColumns: "repeat(2, 1fr)",
-              },
-              mb: "$4",
-            }}
-          >
-            <Box as={"li"} css={{ p: "$2" }}>NodeJs</Box>
-            <Box as={"li"} css={{ p: "$2" }}>ExpressJs</Box>
-            <Box as={"li"} css={{ p: "$2" }}>MongoDB</Box>
-            <Box as={"li"} css={{ p: "$2" }}>MySQL</Box>
-            {/* Add backend skills here */}
-          </GridContainer>
-          
-          <Text h4><u>Programing Languages :</u></Text>
-          <GridContainer
-            as={"ul"}
-            gap={"md"}
-            css={{
-              m: 0,
-              px: 0,
-              gridTemplateColumns: "repeat(4, 1fr)",
-              "@xsMax": {
-                gridTemplateColumns: "repeat(2, 1fr)",
-              },
-              mb: "$4",
-            }}
-          >
-            <Box as={"li"} css={{ p: "$2" }}>C/C++</Box>
-            <Box as={"li"} css={{ p: "$2" }}>Javascript / Typescript</Box>
-            <Box as={"li"} css={{ p: "$2" }}>Python</Box>
-            <Box as={"li"} css={{ p: "$2" }}>SQL</Box>
-            {/* Add backend skills here */}
-          </GridContainer>
-
-          <Text h4><u>Dev-tools/Technologies :</u></Text>
-          <GridContainer
-            as={"ul"}
-            gap={"md"}
-            css={{
-              m: 0,
-              px: 0,
-              gridTemplateColumns: "repeat(4, 1fr)",
-              "@xsMax": {
-                gridTemplateColumns: "repeat(2, 1fr)",
-              },
-              mb: "$4",
-            }}
-          >
-            <Box as={"li"} css={{ p: "$2" }}>Linux</Box>
-            <Box as={"li"} css={{ p: "$2" }}>Docker</Box>
-            <Box as={"li"} css={{ p: "$2" }}>Google Cloud Platform</Box>
-            <Box as={"li"} css={{ p: "$2" }}>Git/Github</Box>
-            {/* Add dev-tools/technologies skills here */}
-          </GridContainer>
-
-          <Text h4><u>Machine Learning :</u></Text>
-          <GridContainer
-            as={"ul"}
-            gap={"md"}
-            css={{
-              m: 0,
-              px: 0,
-              gridTemplateColumns: "repeat(4, 1fr)",
-              "@xsMax": {
-                gridTemplateColumns: "repeat(2, 1fr)",
-              },
-              mb: "$4",
-            }}
-          >
-            <Box as={"li"} css={{ p: "$2" }}>Tensorflow</Box>
-            <Box as={"li"} css={{ p: "$2" }}>Keras</Box>
-            <Box as={"li"} css={{ p: "$2" }}>Scikit-learn</Box>
-          </GridContainer>
-        </Box>
-      </SectionAnimation>
-
-      <br/>
-      <br/>
-
-      <SectionAnimation delay={0.3}>
-        <Box css={{ mb: "$10" }}>
-          <Text h3>Languages</Text>
-          <GridContainer as={"ul"} gap={"md"} css={{ m: 0, px: 0 }}>
-            <Box as={"li"}>English </Box>
-            <Box as={"li"}>Hindi </Box>
-            <Box as={"li"}>Marathi </Box>
-          </GridContainer>
-        </Box>
-      </SectionAnimation>
-      
-      <br/>
+      <br />
+      <br />
 
       <SectionAnimation delay={0.3}>
         <Box css={{ mb: "$10" }}>
           <Text h3>On the Web </Text>
-          <Box as={"ul"} css={{ m: 0 }}>
+          <GridContainer
+            as={"ul"}
+            gap={"md"}
+            css={{
+              m: 0,
+              px: 0,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              "@xsMax": {
+                gridTemplateColumns: "repeat(2, 1fr)",
+              },
+              mb: "$4",
+            }}
+          >
             <Box as={"li"}>
               <Link
                 block
@@ -299,11 +325,50 @@ export const Home = () => {
                   ripple={false}
                   css={{ pl: "$3" }}
                 >
-                  @Siddharth
+                  LinkedIn
                 </Button>
               </Link>
             </Box>
-          </Box>
+            <Box as={"li"}>
+              <Link
+                block
+                target={"_blank"}
+                color="primary"
+                href="https://twitter.com/sidd_punk"
+              >
+                <Button
+                  light
+                  color="primary"
+                  auto
+                  icon={<IconTwitterCircled />}
+                  ripple={false}
+                  css={{ pl: "$3" }}
+                >
+                  @sidd_punk
+                </Button>
+              </Link>
+            </Box>
+            <Box as={"li"}>
+              <Link
+                block
+                target={"_blank"}
+                color="primary"
+                href="mailto:siddharthsalunkhe2003@gmail.com"
+              >
+                <Button
+                  light
+                  color="primary"
+                  auto
+                  icon={<IconBxlGmail/>}
+                  ripple={false}
+                  css={{ pl: "$3" }}
+                >
+                  Mail
+                </Button>
+              </Link>
+            </Box>
+            {/* Add dev-tools/technologies skills here */}
+          </GridContainer>
         </Box>
       </SectionAnimation>
     </Box>
