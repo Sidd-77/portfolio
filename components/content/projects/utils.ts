@@ -63,8 +63,8 @@ export const projects = [
   {
     title: "Personal Porfolio Website",
     description: `It is my personal portfolio website crafted with Next.js and elevated with NextUI! written in Typescript.`,
-    img: "/portfolio.png",
-    href: "/projects/codesubmission",
+    img: "/portfolio1.png",
+    href: "/projects/portfolio",
     preview: "https://task-swart-five.vercel.app/",
     github: "https://github.com/Sidd-77/task",
     alt: "Projects",
@@ -75,8 +75,8 @@ export const projects = [
   {
     title: "Collection of small full stack applications",
     description: `These are collection of full stack applications I created for academic work.`,
-    img: "/Design-System.png",
-    href: "/projects/codesubmission",
+    img: "/academic.png",
+    href: "/projects/academicwork",
     preview: "https://github.com/Sidd-77/adb_assignments",
     github: "https://github.com/Sidd-77/adb_assignments",
     alt: "Projects",
