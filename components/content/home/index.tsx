@@ -87,7 +87,7 @@ export const Home = () => {
               px: 0,
               gridTemplateColumns: "repeat(4, 1fr)",
               "@xsMax": {
-                gridTemplateColumns: "repeat(1, 1fr)",
+                gridTemplateColumns: "repeat(2, 1fr)",
               },
               mb: "$4",
             }}

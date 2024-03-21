@@ -69,7 +69,7 @@ export const projects = [
     github: "https://github.com/Sidd-77/task",
     alt: "Projects",
     platform: "Web",
-    stack: "React, NextUi, Express, NodeJs, Redis, MySQL",
+    stack: "NextJs, NextUi",
     delay: 0.2,
   },
   {
