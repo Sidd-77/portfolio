@@ -48,7 +48,7 @@ export const Home = () => {
           <Text
             span
             css={{
-              textIndent: "1em",
+              textIndent: "4em",
               display: "block",
             }}
           >
@@ -71,17 +71,6 @@ export const Home = () => {
       </SectionAnimation>
 
       <br />
-
-      {/* <SectionAnimation delay={0.3}>
-        <Box css={{ mb: "$10" }}>
-          <Text h3>I ❤️ </Text>
-          <Text as={"span"} css={{ textIndent: "1em" }}>
-            I love to learn new things, I am passionate about web-technologies and ML, and I
-            always try to learn something new every day, I love to solve
-            problems and I am always looking for new challenges.
-          </Text>
-        </Box>
-      </SectionAnimation> */}
 
       <SectionAnimation delay={0.3}>
         <Box css={{ mb: "$10" }}>
@@ -108,6 +97,9 @@ export const Home = () => {
             </Box>
             <Box as={"li"} css={{ p: "$2" }}>
               TailwindCSS
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              Streamlit
             </Box>
             {/* Add more frontend skills here */}
           </GridContainer>
