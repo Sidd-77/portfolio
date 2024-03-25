@@ -237,7 +237,7 @@ export const Home = () => {
               <Text span css={{ mr: "1em" }} weight={"bold"}>
                 2019
               </Text>
-              <Text span>HSC Board</Text>
+              <Text span>SSC Board</Text>
               <Text span>
                 &ensp;(<b>Percentage:</b> 96.80%)
               </Text>
@@ -246,7 +246,7 @@ export const Home = () => {
               <Text span css={{ mr: "1em" }} weight={"bold"}>
                 2021
               </Text>
-              <Text span>SSC Board</Text>
+              <Text span>HSC Board</Text>
               <Text span>
                 &ensp;(<b>Percentage:</b> 95.20%)
               </Text>

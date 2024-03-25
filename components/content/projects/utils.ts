@@ -25,6 +25,18 @@ export const projects = [
     delay: 0.1,
   },
   {
+    title: "Neural Style Transfer",
+    description: `This project is a Neural Style Transfer application that allows users to apply the style of one image to another. It uses a pre-trained model from TensorFlow Hub to perform the style transfer.`,
+    img: "/styletransfer.png",
+    href: "/projects/styletransfer",
+    preview: "https://neural-style-transferr.streamlit.app/",
+    github: "https://github.com/Sidd-77/style-transfer",
+    alt: "Projects",
+    platform: "Web",
+    stack: "Python, Tensorflow, Streamlit, Jupyter Notebook .",
+    delay: 0.1,
+  },
+  {
     title: "Student Performance Prediction",
     description: `Simple end-to-end ml project to predict student performance.`,
     img: "/studentperformance.png",
