@@ -95,7 +95,7 @@ export const Experience = () => {
 
             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
-                Jan 2024 - Ongoing :
+                Jan 2024 - April 2024 :
               </Text>
               <Text css={{ mr: "1em" }} weight={"bold"} span>
               Deep Learning Specialization{" "}
@@ -131,8 +131,8 @@ export const Experience = () => {
               </Box>
               <Box as={"ol"}>
                 <Text as={"ul"} css={{ mr: "1em" }}>
-                    <Link >
-                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Course 5 : Sequence Models (Ongoing){" "}
+                    <Link href="https://coursera.org/share/58b6abf247dc053216a5f80aae98a933">
+                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Course 5 : Sequence Models {" "}
                     </Link>
                 </Text>
               </Box>
