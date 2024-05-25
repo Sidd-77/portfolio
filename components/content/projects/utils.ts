@@ -1,17 +1,16 @@
 export const projects = [
   {
-    title: "YelpCamp",
-    description: `A website where users can create and review campgrounds with a map. The website has a RESTful routing, user authentication, and authorization. Users can upload their own campgrounds and review other campgrounds.`,
-    img: "/yelpcamp.png",
-    href: "/projects/yelpcamp",
-    preview: "https://yelpcampofsidd.onrender.com/home",
-    github: "https://github.com/Sidd-77/yelpCamp",
+    title: "Kidney CT Scan Image Classification using VGG16",
+    description: `This project is an end-to-end deep learning application that uses the VGG16 model for transfer learning to classify kidney CT scan images. The project also incorporates MLflow and DagsHub for experiment tracking, and DVC for data versioning and pipeline management.    `,
+    img: "/kidney.png",
+    href: "/projects/kidney",
+    preview: "https://kidney-disease-classification-sidd.streamlit.app/",
+    github: "https://github.com/Sidd-77/kidney-disease-classification",
     alt: "Projects",
     platform: "Web",
-    stack: "HTML, Bootstrap, Javascript, NodeJs, ExpressJs, MongoDB.",
+    stack: "Python, Tensorflow, MLflow, DagsHub, DVC, Streamlit, Jupyter Notebook.",
     delay: 0.1,
-  },
-  {
+  },{
     title: "Message Punk",
     description: `It is a chat app build in MERN stack with TypeScript, NextUi library for frontend and Socket.io for real-time communication It has most features implemented necessary in a chat app like real-time messaging, typing indicator, creating groups, editing group members and information, and many more...`,
     img: "/messagepunk.png",
@@ -22,6 +21,17 @@ export const projects = [
     platform: "Web",
     stack:
       "ReactJs, Typescript, NextUi, NodeJs, ExpressJs, MongoDB, Socket.io.",
+    delay: 0.1,
+  },{
+    title: "YelpCamp",
+    description: `A website where users can create and review campgrounds with a map. The website has a RESTful routing, user authentication, and authorization. Users can upload their own campgrounds and review other campgrounds.`,
+    img: "/yelpcamp.png",
+    href: "/projects/yelpcamp",
+    preview: "https://yelpcampofsidd.onrender.com/home",
+    github: "https://github.com/Sidd-77/yelpCamp",
+    alt: "Projects",
+    platform: "Web",
+    stack: "HTML, Bootstrap, Javascript, NodeJs, ExpressJs, MongoDB.",
     delay: 0.1,
   },
   {

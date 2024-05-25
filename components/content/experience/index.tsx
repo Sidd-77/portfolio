@@ -46,7 +46,7 @@ export const Experience = () => {
 
             <Box as={"li"} css={{ textIndent: "-3.4em", pl: "3.4em" }}>
               <Text span css={{ mr: "1em" }} weight={"bold"}>
-                Feb 2022 - Current :
+                Feb 2022 - May 2024 :
               </Text>
               <Text css={{ mr: "1em" }} weight={"bold"} span>
                 Main Editor{" "}

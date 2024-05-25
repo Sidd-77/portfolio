@@ -222,6 +222,15 @@ export const Home = () => {
             <Box as={"li"} css={{ p: "$2" }}>
               Scikit-learn
             </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              ML-flow
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              DVC
+            </Box>
+            <Box as={"li"} css={{ p: "$2" }}>
+              Langchain
+            </Box>
           </GridContainer>
         </Box>
       </SectionAnimation>
