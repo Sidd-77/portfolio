@@ -186,7 +186,7 @@ function Projects() {
                 {project.name}
               </h3>
             </div>
-            <p className="text-sm text-slate-400 ml-6">{project.role}</p>
+            <p className="text-sm text-slate-400 ml-6">---</p>
             <p className="text-sm ml-6 mt-2">{project.description}</p>
           </a>
         ))}
