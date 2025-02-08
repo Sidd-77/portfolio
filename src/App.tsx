@@ -209,7 +209,7 @@ function Footer() {
           <a href={portfolioData.links.linkedin} className="hover:text-purple-400 transition-colors flex items-center gap-2">
             <Linkedin size={16} /> linkedin
           </a>
-              <a href={portfolioData.links.resume} download className="hover:text-purple-400 transition-colors flex items-center gap-2">
+              <a href={portfolioData.links.resume} className="hover:text-purple-400 transition-colors flex items-center gap-2">
               <FileText size={16} /> resume
               </a>
         </div>
