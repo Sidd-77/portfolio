@@ -1,0 +1,106 @@
+{
+  "basics": {
+    "name": "siddharth salunkhe",
+    "location": "pune, india",
+    "role": "intern, rackware technologies",
+    "about": "passionate about web development, C++, Kubernetes, and Linux. focused on building scalable systems and developer tools that make the web a better place. when not in front of a terminal, you'll find me exploring mechanical keyboards and contributing to open source."
+  },
+  "experience": [
+    {
+      "company": "rackware technologies",
+      "role": "inter sw engineer",
+      "period": "jan 2025 - present",
+      "description": "worked on C++ and kubernetes"
+    },
+    {
+      "company": "cska automations",
+      "role": "intern linux administrator",
+      "period": "oct 2023 - dec 2023",
+      "description": "worked on managing and maintaining Linux servers"
+    }
+  ],
+  "skills": {
+    "languages": ["TypeScript", "C", "C++", "Python"],
+    "frontend": ["React", "Next.js", "Tailwind CSS"],
+    "backend": ["Node.js", "PostgreSQL", "Redis", "Docker", "MongoDB", "Websockets"],
+    "cloud": ["AWS", "Kubernetes", "Github-CI"]
+  },
+  "projects": [
+    {
+      "name": "microservices-app",
+      "role": "Creator",
+      "description": "modern microservices-based application showcasing proficiency in advanced software architecture and DevOps practices",
+      "link": "https://github.com/Sidd-77/microservices-chat"
+    },
+    {
+      "name": "simple C++ shell",
+      "role": "Creator",
+      "description": "A simple shell written in C++ from scratch. It supports various shell-like features including command execution, piping, background processes, and I/O redirection.",
+      "link": "https://github.com/Sidd-77/cpp-sh"
+    },
+    {
+      "name": "Message Punk",
+      "role": "Creator",
+      "description": "A chat app built with MERN stack and TypeScript, featuring real-time messaging, typing indicators, group creation, and member management using Socket.io.",
+      "link": "https://github.com/Sidd-77/messengerOpunk"
+    },
+    {
+      "name": "YelpCamp",
+      "role": "Creator",
+      "description": "A website for creating and reviewing campgrounds with RESTful routing, user authentication, authorization, and map integration.",
+      "link": "https://github.com/Sidd-77/yelpCamp"
+    },
+    {
+      "name": "Neural Style Transfer",
+      "role": "Creator",
+      "description": "An application that applies the style of one image to another using a pre-trained TensorFlow Hub model.",
+      "link": "https://github.com/Sidd-77/style-transfer"
+    },
+    {
+      "name": "Simple Neural Network",
+      "role": "Creator",
+      "description": "A two-layer neural network trained on the MNIST dataset to recognize digits from 0 to 9.",
+      "link": "https://github.com/Sidd-77/nn-basic/blob/main/nn.ipynb"
+    },
+    {
+      "name": "Code Submissions",
+      "role": "Creator",
+      "description": "A full-stack web application with Express.js, MySQL, Redis, and React that supports online code execution using the Judge0 API (partial implementation).",
+      "link": "https://github.com/Sidd-77/task"
+    },
+    {
+      "name": "Collection of Small Full-Stack Applications",
+      "role": "Creator",
+      "description": "A collection of full-stack applications developed for academic purposes, showcasing expertise in React, Express, Node.js, and MySQL.",
+      "link": "https://github.com/Sidd-77/adb_assignments"
+    }
+  
+  ],
+  "writing": [
+    {
+      "title": "Writing a shell from scratch in C++",
+      "date": "Feb 2025",
+      "link": "https://siddpunk.hashnode.dev/building-a-shell-in-c-from-scratch-part-1"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Deep Learning Specialization",
+      "issuer": "Coursera",
+      "date": "2024",
+      "link": "https://coursera.org/share/58b6abf247dc053216a5f80aae98a933"
+    },
+    {
+      "name": "Google Cloud Computing Foundations",
+      "issuer": "Google Cloud",
+      "date": "2023",
+      "link": "https://www.cloudskillsboost.google/public_profiles/c7df3358-d1b9-433e-beff-efbc7780aaf5"
+    }
+  ],
+  "links": {
+    "email": "siddharthsalunkhe2003@gmail.com",
+    "github": "https://github.com/sidd-77",
+    "linkedin": "https://www.linkedin.com/in/siddharth-salunkhe-a52193224/",
+    "resume": "/src/data/Resume_Siddharth_Salunkhe.pdf"
+  }
+}
